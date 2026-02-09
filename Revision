@@ -1,0 +1,148 @@
+SQL:-  Structure Query Language.
+
+Data-Base :- Database is place where data is Stored and Organized way.
+
+Table : -Store a data in Row And Column.
+
+DBMS:- Data base Management System:- to help Create , Manage and Control Data Base.  EX;- File System.   (no relation).
+
+RDBMS:- Relational Database Mangement System , Ex:- My Sql, MongoDB, (HAs A Relation);
+
+Types Of SQL COmmands:- 
+1. DDL :- DATA DEFINATION LANGUAGE >>>> CREATE, ALTER, DROP.
+2. DML:- Data Manipulation Language >>>> INSERT UPDATE DELETE.
+3. DQL :- Data Query Language. >>> SELECT.
+4. DCL :- Data Control Language >>>> GRANT REVOKE.
+5. TCL :- Transaction Control Language. >>> COMMIT ROLLBACK.
+
+SELECT:- >> get A Data From A Table... EX:- SELECT * FROM STUDENTS.
+
+WHERE:- >> USed To Filter Records .... Ex:- Select * From Student WHERE id = 2.
+
+PRIMARY KEY :- Uniquely identify Rows, OR , Cannot be Nulll. OR No duplicate.
+
+ What is FOREIGN KEY? :- >>>> It connects one table to another table.
+
+Difference between DELETE AND TRUNCATE..
+   DELETE	                         TRUNCATE
+Removes selected rows       	Removes all rows
+WHERE allowed	                WHERE not allowed
+Can rollback	                Cannot rollback
+
+ What is UPDATE :- >>>>  Used to modify data.  Ex:-  UPDATE students SET city='Delhi' WHERE id=1;
+
+ What is JOIN :- >>>>>> Used to get data from multiple table.
+
+Types of JOIN :- >>>>>  INNER JOIN, LEFT JOIN, RIGHT JOIN , FULL JOIN
+
+What is INNER JOIN? :- >>>>>>> Returns only matching records from both tables.
+
+What is ORDER BY? :- >>>>>>>> Used to SORT  records.   EX:- SELECT * FROM students ORDER BY name;
+
+What is GROUP BY? :- >>>>>> Used to GROUP SIMILAR  values.  EX:- SELECT city, COUNT(*) FROM students GROUP BY city;
+
+What is HAVING? :- >>>>>>>>> Used with GROUP BY to filter groups.
+
+What is LIKE? :- Used for pattern matching.  EX:- >> SELECT * FROM students WHERE name LIKE 'A%';
+
+difference: >>>>
+   WHERE                        HAVING              
+ Filters rows               Filters groups      
+ Used before GROUP BY       Used after GROUP BY 
+
+
+What is normalization? :- >>>>>> Process to remove duplicate data and improve table structure.
+
+What is constraint :- >>>>>>    Rules on table data.
+
+What is DISTINCT? :- >>>>>>>  Remove duplicates.
+
+What is LIMIT :- >>>>>>> Restrict records.
+
+What is LIMIT?
+Restrict records.
+
+What is BETWEEN?
+Range filter.
+
+What is IN?
+Multiple values filter.
+
+What is LIKE?
+Pattern matching.
+
+What is alias?
+Temporary name.
+
+What is subquery?
+Query inside query.
+
+What is UNION?
+Combine results.
+
+UNION vs UNION ALL?
+ALL keeps duplicates.
+
+What is JOIN?
+Combine tables.
+
+INNER JOIN?
+Matching records only.
+
+LEFT JOIN?
+All left + matches.
+
+RIGHT JOIN?
+All right + matches.
+
+FULL JOIN?
+All records.
+
+What is index?
+Speeds up search.
+
+What is view?
+Virtual table.
+
+What is normalization?
+Remove duplication.
+
+1NF?
+Atomic values.
+
+2NF?
+No partial dependency.
+
+3NF?
+No transitive dependency.
+
+What is transaction?
+Set of SQL operations.
+
+What is COMMIT?
+Save changes.
+
+What is ROLLBACK?
+Undo changes.
+
+What is ACID?
+Atomicity, Consistency, Isolation, Durability.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
